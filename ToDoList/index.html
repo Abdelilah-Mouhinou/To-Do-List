@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../../favIcon.png" type="image/x-icon">
+    <title>HanikO - To Do List</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shortcut icon" href="../../favIcon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Todo App</header>
+      <div class="inputField">
+        <input type="text" placeholder="Add your new todo" />
+        <button><i class="fa-solid fa-plus"></i></button>
+      </div>
+      <ul class="todolist">
+        <!-- elements coes from local storage -->
+      </ul>
+      <div class="footer">
+        <span>You have <span class="pendingNumb"></span> Tasks</span>
+        <button onclick="deletAll()">Clear All</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
